@@ -26,10 +26,10 @@ class TestCalculator:
     def teardown_class(self):
         print("\n类用例执行完成")
 
-    def setup_method(self):
+    def setup(self):
         print("\n【开始计算】")
 
-    def teardown_method(self):
+    def teardown(self):
         print("\n【计算结束】")
 
     def setup_class(self):
