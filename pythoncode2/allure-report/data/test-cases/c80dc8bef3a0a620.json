@@ -1,0 +1,144 @@
+{
+  "uid" : "c80dc8bef3a0a620",
+  "name" : "test_div[0-0-0]",
+  "fullName" : "test_calculator2.TestCalculator2#test_div",
+  "historyId" : "00cdc0134e9a1fb3c764460fbe94845e",
+  "time" : {
+    "start" : 1609149295711,
+    "stop" : 1609149295713,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "start_end",
+    "time" : {
+      "start" : 1609149295633,
+      "stop" : 1609149295633,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "xunit_setup_class_fixture_TestCalculator2",
+    "time" : {
+      "start" : 1609149295633,
+      "stop" : 1609149295633,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3cd02535a3540c5c",
+      "name" : "stdout",
+      "source" : "3cd02535a3540c5c.txt",
+      "type" : "text/plain",
+      "size" : 19
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "start_end::0",
+    "time" : {
+      "start" : 1609149295757,
+      "stop" : 1609149295757,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "xunit_setup_class_fixture_TestCalculator2::0",
+    "time" : {
+      "start" : 1609149295754,
+      "stop" : 1609149295754,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('start_end')"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=4)"
+  }, {
+    "name" : "suite",
+    "value" : "test_calculator2"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCalculator2"
+  }, {
+    "name" : "host",
+    "value" : "liangyanandeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "27197-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_calculator2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "0"
+  }, {
+    "name" : "b",
+    "value" : "0"
+  }, {
+    "name" : "expect",
+    "value" : "0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('start_end')", "run(order=4)" ]
+  },
+  "source" : "c80dc8bef3a0a620.json",
+  "parameterValues" : [ "0", "0", "0" ]
+}
